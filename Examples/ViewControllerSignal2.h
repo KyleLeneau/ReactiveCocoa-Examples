@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  ViewControllerSignal2.h
 //  Examples
 //
 //  Created by Kyle LeNeau on 5/14/15.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewControllerSignal2 : UIViewController
 
 @end

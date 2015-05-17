@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		27A928591B05AFF800E1178C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 27A928581B05AFF800E1178C /* main.m */; };
 		27A9285C1B05AFF800E1178C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 27A9285B1B05AFF800E1178C /* AppDelegate.m */; };
-		27A9285F1B05AFF800E1178C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27A9285E1B05AFF800E1178C /* ViewController.m */; };
+		27A9285F1B05AFF800E1178C /* ViewControllerSignal2.m in Sources */ = {isa = PBXBuildFile; fileRef = 27A9285E1B05AFF800E1178C /* ViewControllerSignal2.m */; };
 		27A928621B05AFF800E1178C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27A928601B05AFF800E1178C /* Main.storyboard */; };
 		27A928641B05AFF800E1178C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27A928631B05AFF800E1178C /* Images.xcassets */; };
 		27A928671B05AFF800E1178C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27A928651B05AFF800E1178C /* LaunchScreen.xib */; };
@@ -18,6 +18,11 @@
 		27A928811B05B04600E1178C /* PureLayout_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27A9287D1B05B04600E1178C /* PureLayout_iOS.framework */; };
 		27A928821B05B04600E1178C /* ReactiveCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27A9287E1B05B04600E1178C /* ReactiveCocoa.framework */; };
 		27A928831B05B04600E1178C /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27A9287F1B05B04600E1178C /* Result.framework */; };
+		27E2337A1B080FE8006BE4AF /* ViewControllerSignal1.m in Sources */ = {isa = PBXBuildFile; fileRef = 27E233791B080FE8006BE4AF /* ViewControllerSignal1.m */; };
+		27E2337D1B081040006BE4AF /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27E2337C1B081040006BE4AF /* MasterViewController.m */; };
+		27E233801B082952006BE4AF /* ViewControllerSignal3.m in Sources */ = {isa = PBXBuildFile; fileRef = 27E2337F1B082952006BE4AF /* ViewControllerSignal3.m */; };
+		27E233831B082F07006BE4AF /* ViewControllerSignal4.m in Sources */ = {isa = PBXBuildFile; fileRef = 27E233821B082F07006BE4AF /* ViewControllerSignal4.m */; };
+		27E233861B083F83006BE4AF /* ViewControllerSignalProducer1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E233851B083F83006BE4AF /* ViewControllerSignalProducer1.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,8 +41,8 @@
 		27A928581B05AFF800E1178C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		27A9285A1B05AFF800E1178C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		27A9285B1B05AFF800E1178C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		27A9285D1B05AFF800E1178C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		27A9285E1B05AFF800E1178C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		27A9285D1B05AFF800E1178C /* ViewControllerSignal2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewControllerSignal2.h; sourceTree = "<group>"; };
+		27A9285E1B05AFF800E1178C /* ViewControllerSignal2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewControllerSignal2.m; sourceTree = "<group>"; };
 		27A928611B05AFF800E1178C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		27A928631B05AFF800E1178C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		27A928661B05AFF800E1178C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -48,6 +53,16 @@
 		27A9287D1B05B04600E1178C /* PureLayout_iOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PureLayout_iOS.framework; path = Carthage/Build/iOS/PureLayout_iOS.framework; sourceTree = "<group>"; };
 		27A9287E1B05B04600E1178C /* ReactiveCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReactiveCocoa.framework; path = Carthage/Build/iOS/ReactiveCocoa.framework; sourceTree = "<group>"; };
 		27A9287F1B05B04600E1178C /* Result.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Result.framework; path = Carthage/Build/iOS/Result.framework; sourceTree = "<group>"; };
+		27E233781B080FE8006BE4AF /* ViewControllerSignal1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerSignal1.h; sourceTree = "<group>"; };
+		27E233791B080FE8006BE4AF /* ViewControllerSignal1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerSignal1.m; sourceTree = "<group>"; };
+		27E2337B1B081040006BE4AF /* MasterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		27E2337C1B081040006BE4AF /* MasterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		27E2337E1B082952006BE4AF /* ViewControllerSignal3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerSignal3.h; sourceTree = "<group>"; };
+		27E2337F1B082952006BE4AF /* ViewControllerSignal3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerSignal3.m; sourceTree = "<group>"; };
+		27E233811B082F07006BE4AF /* ViewControllerSignal4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerSignal4.h; sourceTree = "<group>"; };
+		27E233821B082F07006BE4AF /* ViewControllerSignal4.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerSignal4.m; sourceTree = "<group>"; };
+		27E233841B083F83006BE4AF /* Examples-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Examples-Bridging-Header.h"; sourceTree = "<group>"; };
+		27E233851B083F83006BE4AF /* ViewControllerSignalProducer1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerSignalProducer1.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,12 +111,22 @@
 			children = (
 				27A9285A1B05AFF800E1178C /* AppDelegate.h */,
 				27A9285B1B05AFF800E1178C /* AppDelegate.m */,
-				27A9285D1B05AFF800E1178C /* ViewController.h */,
-				27A9285E1B05AFF800E1178C /* ViewController.m */,
+				27E2337B1B081040006BE4AF /* MasterViewController.h */,
+				27E2337C1B081040006BE4AF /* MasterViewController.m */,
+				27E233781B080FE8006BE4AF /* ViewControllerSignal1.h */,
+				27E233791B080FE8006BE4AF /* ViewControllerSignal1.m */,
+				27A9285D1B05AFF800E1178C /* ViewControllerSignal2.h */,
+				27A9285E1B05AFF800E1178C /* ViewControllerSignal2.m */,
+				27E2337E1B082952006BE4AF /* ViewControllerSignal3.h */,
+				27E2337F1B082952006BE4AF /* ViewControllerSignal3.m */,
+				27E233811B082F07006BE4AF /* ViewControllerSignal4.h */,
+				27E233821B082F07006BE4AF /* ViewControllerSignal4.m */,
+				27E233851B083F83006BE4AF /* ViewControllerSignalProducer1.swift */,
 				27A928601B05AFF800E1178C /* Main.storyboard */,
 				27A928631B05AFF800E1178C /* Images.xcassets */,
 				27A928651B05AFF800E1178C /* LaunchScreen.xib */,
 				27A928561B05AFF800E1178C /* Supporting Files */,
+				27E233841B083F83006BE4AF /* Examples-Bridging-Header.h */,
 			);
 			path = Examples;
 			sourceTree = "<group>";
@@ -153,6 +178,7 @@
 				27A9284F1B05AFF800E1178C /* Sources */,
 				27A928501B05AFF800E1178C /* Frameworks */,
 				27A928511B05AFF800E1178C /* Resources */,
+				27E2338B1B08609A006BE4AF /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -238,13 +264,38 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		27E2338B1B08609A006BE4AF /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/ReactiveCocoa.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Box.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Result.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/PureLayout_iOS.framework",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		27A9284F1B05AFF800E1178C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				27A9285F1B05AFF800E1178C /* ViewController.m in Sources */,
+				27E233861B083F83006BE4AF /* ViewControllerSignalProducer1.swift in Sources */,
+				27E233801B082952006BE4AF /* ViewControllerSignal3.m in Sources */,
+				27E2337A1B080FE8006BE4AF /* ViewControllerSignal1.m in Sources */,
+				27A9285F1B05AFF800E1178C /* ViewControllerSignal2.m in Sources */,
+				27E2337D1B081040006BE4AF /* MasterViewController.m in Sources */,
 				27A9285C1B05AFF800E1178C /* AppDelegate.m in Sources */,
+				27E233831B082F07006BE4AF /* ViewControllerSignal4.m in Sources */,
 				27A928591B05AFF800E1178C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -371,6 +422,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
@@ -378,6 +430,8 @@
 				INFOPLIST_FILE = Examples/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Examples/Examples-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -385,6 +439,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
@@ -392,6 +447,7 @@
 				INFOPLIST_FILE = Examples/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Examples/Examples-Bridging-Header.h";
 			};
 			name = Release;
 		};
